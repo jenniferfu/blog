@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title><![CDATA[hexo使用]]></title>
+    <url>%2Fblog%2F2017%2F10%2F23%2Fhexo%E4%BD%BF%E7%94%A8%2F</url>
+    <content type="text"><![CDATA[一些部署命令 命令 含义 hexo s 启动服务器 hexo new “My New Post” 新建文章 “My New Post” hexo d 部署网站 hexo g 生成静态文件 hexo clean 清除缓存文件 (db.json) 和已生成的静态文件 写作tips 可以用 &lt;!–more–&gt; 来控制首页显示内容 官方文档]]></content>
+      <tags>
+        <tag>hexo</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[Sublime插件]]></title>
+    <url>%2Fblog%2F2017%2F10%2F17%2Fsublime%E6%8F%92%E4%BB%B6%2F</url>
+    <content type="text"><![CDATA[OmniMarkupPreviwer ，一个sublime的插件，用来写markdown。 Ctrl+Alt+O: Preview Markup in Browser Ctrl+Alt+X: Export Markup as HTML Ctrl+Alt+C: Copy Markup as HTML]]></content>
+      <tags>
+        <tag>markdown</tag>
+        <tag>sublime</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[markdown教程——用到就更新]]></title>
+    <url>%2Fblog%2F2017%2F10%2F17%2Fmarkdown%E6%95%99%E7%A8%8B%2F</url>
+    <content type="text"><![CDATA[代码高亮 12```phpecho &quot;test&quot;; 列表无序列表 *有序列表 数字接着一个英文句点引用 &gt;链接 [显示文本](链接地址)有道云markdown教程markdown教程图片 ![显示文本](图片链接地址)表格###12345| Tables | Are | Cool || ------------- |:-------------:| -----:|| col 3 is | right-aligned | $1600 || col 2 is | centered | $12 || zebra stripes | are neat | $1 | Tables Are Cool col 3 is right-aligned $1600 col 2 is centered $12 zebra stripes are neat $1]]></content>
+      <tags>
+        <tag>markdown</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[First Article]]></title>
+    <url>%2Fblog%2F2017%2F10%2F17%2FFirst-Article%2F</url>
+    <content type="text"><![CDATA[222]]></content>
+      <tags>
+        <tag>随笔</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[文章名]]></title>
+    <url>%2Fblog%2F2017%2F10%2F16%2F%E6%96%87%E7%AB%A0%E5%90%8D%2F</url>
+    <content type="text"><![CDATA[test]]></content>
+      <tags>
+        <tag>test</tag>
+      </tags>
+  </entry>
+</search>
