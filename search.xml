@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[redis安装]]></title>
+    <url>%2Fblog%2F2018%2F01%2F29%2Fredis%E5%AE%89%E8%A3%85%2F</url>
+    <content type="text"><![CDATA[#windows下载https://github.com/MSOpenTech/redis/releases安装 win+r打开运行，输入cmd，切换到redis目录 输入redis-server redis.windows.conf，出现下图表示启动成功 设置Redis服务 为了保持redis一直存在，要把redis设置成windows下的服务 新建窗口，输入 redis-server –service-install redis.windows-service.conf –loglevel verbose ，输入命令之后没有报错就是成功了 常用的redis服务命令 卸载服务：redis-server –service-uninstall 开启服务：redis-server –service-start 停止服务：redis-server –service-stop 测试服务]]></content>
+      <tags>
+        <tag>redis</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[hexo使用]]></title>
     <url>%2Fblog%2F2017%2F10%2F23%2Fhexo%E4%BD%BF%E7%94%A8%2F</url>
     <content type="text"><![CDATA[一些部署命令 命令 含义 hexo s 启动服务器 hexo new “My New Post” 新建文章 “My New Post” hexo d 部署网站 hexo g 生成静态文件 hexo clean 清除缓存文件 (db.json) 和已生成的静态文件 写作tips 可以用 &lt;!–more–&gt; 来控制首页显示内容 官方文档]]></content>
