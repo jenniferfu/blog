@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[redis学习]]></title>
+    <url>%2Fblog%2F2018%2F01%2F29%2Fredis%E5%AD%A6%E4%B9%A0%2F</url>
+    <content type="text"><![CDATA[数据类型 string hash list set zset redis命令redis命令 远程连接 redis-cli -h host -p port -a password redis键（key） 命令 含义 del key 删除 exists key 判断是否存在 redis字符串（string） 命令 含义 del key 删除值 get key 获取值 set key value 设置值 redis哈希（hash） 命令 含义 hdel key field 删除哈希表字段 hmget key field 获取值 hmset key field value 设置值 redis列表（list） 命令 含义 lpush key value 将一个或多个值插入到列表头部 rpush key value 在列表中添加一个或多个值 lrange key start end 设置值 redis集合（set） 命令 含义 sadd key member 向集合添加一个或多个成员 smembers key 返回集合中的所有成员 redis有序集合（sorted set） 命令 含义 zadd key score member 向有序集合添加一个或多个成员，或者更新已存在成员的分数 redis事务 命令 含义 DISCARD 取消事务，放弃执行事务块内的所有命令。 EXEC 执行所有事务块内的命令 MULTI 标记一个事务块的开始 UNWATCH 取消 WATCH 命令对所有 key 的监视 WATCH key [key …] 监视一个(或多个) key ，如果在事务执行之前这个(或这些) key 被其他命令所改动，那么事务将被打断。]]></content>
+      <tags>
+        <tag>redis</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[redis安装]]></title>
     <url>%2Fblog%2F2018%2F01%2F29%2Fredis%E5%AE%89%E8%A3%85%2F</url>
     <content type="text"><![CDATA[#windows下载https://github.com/MSOpenTech/redis/releases安装 win+r打开运行，输入cmd，切换到redis目录 输入redis-server redis.windows.conf，出现下图表示启动成功 设置Redis服务 为了保持redis一直存在，要把redis设置成windows下的服务 新建窗口，输入 redis-server –service-install redis.windows-service.conf –loglevel verbose ，输入命令之后没有报错就是成功了 常用的redis服务命令 卸载服务：redis-server –service-uninstall 开启服务：redis-server –service-start 停止服务：redis-server –service-stop 测试服务]]></content>
